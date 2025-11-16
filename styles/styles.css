@@ -3,19 +3,19 @@
     padding: 0;
     box-sizing: border-box;
 }
-body {
+.body {
     font-family: var(--body-font);
     color: var(accent1-color);
 }
-header, main , footer {
+.header, main , footer {
                         width: 840;
                         margin: 0 auto;
 }
-h1 , h2 {
+.h1 , h2 {
     font-family: var(--heading-font);
     color: var(--primary-color);
 }
-nav,p,section,article{
+.nav,p,section,article{
     margin: 16px;
     padding: 8px;
 }
@@ -30,7 +30,7 @@ nav,p,section,article{
     width: 100%;
     height: auto;
 }
-h1 {
+.h1 {
     position:absolute;
     top: 20px;
     width: 100%;
@@ -40,7 +40,7 @@ h1 {
     background-color: var(--accent1-color);
     color: #fff;
 }
-main image {
+.main image {
     width: 150px;
     height: auto;
 
@@ -53,7 +53,7 @@ main image {
   padding-left: 1rem;
   padding-right: 1rem;
 }
-aside {
+.aside {
     width: 20rem;
     margin: 1rem;
     border: 1px solid rgb(000/0.2);/*1️⃣ */
@@ -69,15 +69,16 @@ aside {
 p {
     padding: 0;
 }
-nav{
+.nav{
     
 }
-footer {
+.footer {
     margin-top: 15px;
     border-top: 1px solid #000;
     text-align: center;
 
 }
+
 
 
 
