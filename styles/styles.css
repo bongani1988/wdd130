@@ -43,10 +43,8 @@ h1 {
 main image {
     width: 150px;
     height: auto;
-    
-    
-}
 
+}
 aside {
     width: 20rem;
     margin: 1rem;
@@ -59,7 +57,6 @@ aside {
 aside image {
     width:200px;
     height:auto;
-
 }
 p {
     padding: 0;
@@ -70,4 +67,5 @@ footer {
     text-align: center;
 
 }
+
 
